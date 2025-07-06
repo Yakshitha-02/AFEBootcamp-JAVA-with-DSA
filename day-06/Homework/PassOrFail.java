@@ -15,5 +15,6 @@ public class PassOrFail {
     int marks = scanner.nextInt();
 
     checkPassFail(marks);
+    scanner.close();
     }
 }
