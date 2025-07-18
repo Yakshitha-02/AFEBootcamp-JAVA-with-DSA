@@ -13,7 +13,7 @@ public class SumOFDiagonal {
          System.out.println("The sum of the daigonal elements is "+sum);
     }
     public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of rows:");
         int n = scanner.nextInt();
         System.out.print("Enter number of columns:");
